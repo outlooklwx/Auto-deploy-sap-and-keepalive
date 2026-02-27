@@ -258,7 +258,7 @@ jobs:
           elif [ "${{ github.event.inputs.type }}" = "DecoTV" ]; then
             echo "DOCKER_IMAGE=ghcr.io/decohererk/decotv:latest" >> $GITHUB_ENV
           else 
-            echo "DOCKER_IMAGE=ghcr.io/eooce/moontv:latest" >> $GITHUB_ENV
+            echo "DOCKER_IMAGE=ghcr.io/outlooklwx/lunatv:latest" >> $GITHUB_ENV
           fi
         fi
         echo "使用API端点: $CF_API"
