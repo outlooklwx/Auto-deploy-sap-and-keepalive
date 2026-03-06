@@ -56,7 +56,7 @@ on:
         default: ''
 
 env:
-  DOCKER_IMAGE: ${{ secrets.DOCKER_IMAGE || 'ghcr.io/eooce/nav-item:latest' }}
+  DOCKER_IMAGE: ${{ secrets.DOCKER_IMAGE || 'ghcr.io/lwxyy/nav-item:latest' }}
   MEMORY: ${{ secrets.MEMORY || '256M' }}
   DISK: ${{ secrets.DISK || '300M' }}
 
